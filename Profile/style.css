@@ -1,0 +1,134 @@
+
+body {
+  background-image: url('https://www.shutterstock.com/image-photo/clouds-seamless-background-texture-pattern-600nw-55712335.jpg');
+  background-size: 100px 100px;
+ animation: moveBackground 10s linear infinite alternate;
+  background-repeat: repeat;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes moveBackground {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 100px 100px;
+  }
+}
+
+
+.body-container {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.picstick {
+background: none;
+display: flex ;
+align-items: center;
+flex-direction: row;
+gap: 15px;
+padding: 20px
+}
+
+
+img {
+width: 200px;
+height: auto;
+border-radius: 30%;
+box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#sticker {
+background-color:red;
+color: white;
+padding: 3px 10px;
+border-radius: 10px;
+width: 320px;
+font-family: Helvetica, sans-serif;
+box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.3);
+text-align: center;
+
+}
+
+.name {
+background-color: white;
+color: black;
+padding: 40px 20px 20px ;
+border-radius: 4px;
+font-family: "Permanent Marker", cursive;  width: 300;
+font-size: 46px;
+font-weight: bold;
+font-style: italic;
+letter-spacing: 4.0px;
+width:280px;
+}
+
+
+.biography {
+background: rgb(239, 237, 237, 0.75);
+
+width: 500px;
+height: 350px;
+margin: 0 auto;
+padding: 15px;
+justify-items: center;
+border: 5px solid #F7F7F7;
+border-radius: 20px;
+box-shadow: 0 0 16px rgba(0,0,0,7);
+}
+
+
+.throwback {
+  /* text-align: left;
+  font-family: Arial, Helvetica, sans-serif; */
+  /* margin: 30px auto; */
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid #87cefa;
+  /* background-color: #f1f9ff; */
+}
+
+/* table {
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #003366;
+  background-color: #e6f2ff; */
+
+
+.throwback th{
+  background-color: #6698CB;
+  color: white;
+  padding: 10px;
+  border-bottom: 3px solid #003366;
+}
+
+.throwback td{
+  padding: 8px;
+  text-align: left;
+  background-color: #e9f4ff;
+  border-bottom: 1px solid #d9e9f9;
+}
+
+.throwback td:first-child {
+  font-weight: bold;
+  background-color: #cbe6f6;
+  color: #4d90fe;
+}
+
+.throwback tr:last-child td {
+  border-bottom: none;
+}
+
+/* tbody {
+  background-color: aqua;
+} */
